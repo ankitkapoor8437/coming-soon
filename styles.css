@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* color: #FFFFFF; */
+}
+
+
+/* Navbar Section */
+.header {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    align-content: center;
+    /* background-color: antiquewhite; */
+}
+
+.navbar {
+    width: 56%;
+    margin: auto auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comingsoon {
+    /* border: 2px solid; */
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 10px;
+    letter-spacing: 2px;
+    transition: .5s all ease;
+}
+
+.comingsoon:hover {
+    transform: scale(1.1);
+}
+
+span div {
+    color: #FFD6BD;
+    width: 60px;
+    margin: 5px auto;
+    border-radius: .8px;
+    border: 1px solid #FFD6BD;
+}
+
+.logo {
+    /* border: 2px solid; */
+
+    font-size: 32px;
+    letter-spacing: 2px;
+    line-height: 1.3;
+    font-family: Roboto;
+    font-weight: 500;
+}
+
+.socials {
+    /* border: 2px solid; */
+    color: #FFD6BD;
+    font-size: 22px;
+    display: flex;
+    gap: 25px;
+}
+
+i {
+    transition: 0.5s all ease;
+
+}
+
+.socials i:hover {
+    transform: scale(2);
+}
+
+/* hero section */
+.section {
+    background-image: url(assets/daria-shevtsova-57355.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid; */
+    width: 100%;
+    height: 830px;
+    background-size: cover;
+
+}
+
+.outerbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 654px;
+    height: 616px;
+    border: 4px solid black;
+}
+
+.innerbox {
+    background-color: white;
+    width: 635px;
+    height: 594px;
+    opacity: 76%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Open Sans';
+    line-height: 1.5;
+    color: grey;
+    width: 426;
+    height: 26;
+    display: block;
+}
+
+.subtitle {
+    width: 426px;
+    height: 154px;
+    font-size: 64px;
+    font-weight: 600;
+    font-family: 'Open Sans';
+    line-height: 1.2;
+    color: black;
+    text-align: center;
+}
+
+.subsubtitle {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    line-height: 1.7;
+    color: black;
+    font-weight: 400;
+    width: 390px;
+    height: 61px;
+    text-align: center;
+}
+
+.btn {
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    width: 355px;
+    height: 100px;
+    gap: 5px;
+}
+
+.btn input {
+    width: 347px;
+    height: 39px;
+    font-size: 14px;
+    border: 1px solid black;
+    background-color: #fff;
+}
+
+::placeholder {
+    padding: 5px 6px;
+    font-size: 14px;
+}
+
+.btn button {
+    padding: 5px 6px;
+
+    width: 350px;
+    height: 43px;
+    font-size: 14px;
+    text-align: center;
+    background: black;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+    border: none;
+    opacity: 100%;
+    z-index: 11;
+}
+
+
+/* Footer Section */
+.footer {
+    width: 100%;
+    height: 210px;
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -20px;
+    gap: 60px;
+}
+
+.coloumns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 100px;
+}
+
+.coloumns-section {
+    /* border: 2px solid; */
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 10px;
+    letter-spacing: 2px;
+    transition: .5s all ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.coloumns-section span {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: gray;
+}
+
+/* Copyright Section */
+.copyright{
+    height: 50px;
+    width: 100%;
+    margin-top: -20px;
+}
+
+.copyright span{
+    position: relative;
+    font-size: 11px;
+    font-weight: 400;
+    text-align: center;
+    left: 480px;
+    letter-spacing: 1px;
+}
+
+.copyright span i{
+    color: #FFD6BD;
+}
